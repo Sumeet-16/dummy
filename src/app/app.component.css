@@ -1,0 +1,163 @@
+.container{
+    padding: 3em;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center ;
+}
+.todo-container{
+    display: flex;
+    width: 100%;
+    padding: 5em;
+}
+.todo-form{
+    width: 50%;
+    padding: 2em ;
+}
+.todo-grid  {
+    width: 50%;
+    padding: 2em ;
+}
+form.form-group{
+    margin-bottom: 1em;
+}
+form label{
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+form input[type="text"],form input[type="number"],form input[type="password"]{
+ 
+    width: 100%;
+    padding: 0.5em 0.3em;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+ 
+}
+.form-group-inline{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.form-group-inline div{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+ 
+.todo-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 0.2em;
+}
+.todo-row-detalis{
+    background-color: #EEE;
+    flex-grow: 1;
+    padding: 0.4em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.2em;
+    cursor: pointer;
+}
+todo-row-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-row-action a{
+ 
+    color: red;
+    cursor: pointer;
+    padding: 1em;
+    background-color: #EF5350;
+    color: white;
+}
+.navbar
+{
+    background-color:rgb(0 0 0 / 86%);
+    border-radius: 33px;
+    padding: 1px;
+  
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    
+    float: left;
+    list-style: none;
+    margin: 10px 10px;
+  padding-top: 7px;
+  font-size: 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+   color: green;
+}
+.searchbar
+{
+    float: right;
+    color: white;
+    padding: 12px  75px;
+}
+.navbar input
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 350px;
+}
+.buttondata
+{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 150px;
+    
+}
+body
+{
+background-image: url(/src/s2.jpg);
+background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover ;
+  min-height: 100vh;
+}
+.heading {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    
+    padding: 20px;
+   
+    gap: 15px;
+    align-items: center;
+    border-radius: 6px;
+}
+.h1{
+    color: black;
+}
+.icon{
+    float: left;
+  width: 2pc;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
